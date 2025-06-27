@@ -13,28 +13,28 @@ If you're a reviewer, thank you for evaluating this work!
 ---
 
 
-# 1. Clone the repository
+## 1. Clone the repository
 ```bash
 git clone https://github.com/seyedeh-mona-ebrahimi/Voices-Between-Lines.git
 ```
 
-# 2. Create and activate a virtual environment
+## 2. Create and activate a virtual environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-# 3. Install Python dependencies
+## 3. Install Python dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-# 4. Install system dependencies
+## 4. Install system dependencies On Ubuntu/Debian:
 ```bash
-sudo apt-get install voikko-fi python3-libvoikko
+sudo apt-get install -y voikko-fi python3-libvoikko
 ```
 
-# 5. Run the pipeline
+## 5. Run the pipeline
 ```bash
 python run_labeling_pipeline.py
 ```
