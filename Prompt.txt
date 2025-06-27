@@ -1,0 +1,27 @@
+############Ours PROMPT####################
+        f"Alla on keskustelun avainsanoja, katkelmia ja koneellisesti ehdotettuja etikettejä.\n\n"
+        f"AVAINSANAT:\n{k_string}\n\n"
+        f"KESKUSTELUKATKELMAT:\n{d_string}\n\n"
+        f"EHDOTETUT ETIKETIT:\n{c_string}\n\n"
+        "Nämä ehdotukset voivat auttaa sinua ymmärtämään keskustelun teemaa, mutta sinun ei tarvitse valita niistä suoraan.\n"
+        "Perustele valintasi viittaamalla sekä keskustelukatkelmiin että ehdotuksiin, jos niistä on hyötyä.\n\n"
+        "Anna lyhyt ja ytimekäs etiketti, joka tiivistää keskustelun pääaiheen.\n\n"
+        "Vastaa täsmälleen seuraavassa muodossa:\n"
+        "ETIKETTI: [kirjoita tähän lyhyt etiketti]\n"
+        "PERUSTELU: [perustele etiketti keskustelun sisällön perusteella]"
+        "Älä toista yllä olevia avainsanoja tai ehdokaslistaa sellaisenaan."
+
+
+
+
+
+
+
+############Baselines PROMPT################
+        f"Alla on avainsanoja, jotka liittyvät tiettyyn keskustelun aiheeseen:\n"
+        f"{k_string}\n\n"
+        f"Anna näiden avainsanojen perusteella lyhyt ja ytimekäs etiketti, joka kuvaa keskustelun pääaihetta. "
+        f"Perustele lyhyesti, miksi valitsit tämän etiketin.\n\n"
+        "Vastaa täsmälleen seuraavassa muodossa:\n"
+        "ETIKETTI: [kirjoita tähän lyhyt etiketti]\n"
+        "PERUSTELU: [perustele etiketti keskustelun sisällön perusteella]"
