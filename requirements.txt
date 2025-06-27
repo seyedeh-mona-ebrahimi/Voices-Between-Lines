@@ -1,0 +1,14 @@
+# Core dependencies
+numpy>=1.22
+pandas>=1.5
+scikit-learn>=1.2
+matplotlib>=3.6
+seaborn>=0.12
+nltk>=3.8
+transformers>=4.40
+sentencepiece>=0.1.99
+torch>=2.1
+# Finnish lemmatizer — must also install system-level libvoikko
+libvoikko==4.3
+wordcloud>=1.9
+regex>=2022.10.31
